@@ -1,0 +1,55 @@
+1.
+CREATE TABLE customer (
+    Customer_ID int,
+    C_Name varchar(15),
+    C_Phone int,
+    C_Address varchar(15)
+);
+
+2.
+CREATE TABLE inventory (
+    Serial_Number int,
+    Item_name varchar(15),
+    Batch_Number vatchar(45),
+    Quantity int,
+    Price int
+);
+
+3.
+CREATE TABLE purchases (
+    Cust_Name varchar(15),
+    Date varchar(45),
+    Item_1 varchar(15),
+    Item_2 varchar(15),
+    Item_3 varchar(15),
+    Item_4 varchar(15),
+    Item_5 varchar(15),
+    Item_6 varchar(15),
+    Item_7 varchar(15),
+    Item_8 varchar(15),
+    Item_9 varchar(15),
+    Item_10 varchar(15),
+);
+
+4.
+CREATE TABLE users (
+    First_Name varchar(20),
+    Last_Name varchar(15),
+    Mobile int,
+    Address varchar(45),
+    Aadhaar int,
+    User_Name varchar(6),
+    Password varchar(10)
+)
+
+
+5.
+INSERT INTO users(First_Name, Last_Name, Mobile, Address, Aadhaar, User_Name, Password) VALUES('abc', 'def', 99999, 'psv', 88888, 'ajay', ajay123);
+
+
+
+
+
+
+
+
